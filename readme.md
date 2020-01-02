@@ -1,45 +1,29 @@
-# DevastateMini
+# DevastateMode-Z
 
-Based on [Devastate](https://github.com/vlakarados/devastate) sublime theme that
-was based on [Spacefunk](https://github.com/Twiebie/ST-Spacefunk). Icons is 
-taken from [boXY](https://github.com/oivva/boxy).
+Forked from [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini) that was based on the [Devastate](https://github.com/vlakarados/devastate) sublime theme that
+was based on the [Spacefunk](https://github.com/Twiebie/ST-Spacefunk) theme. 
 
-Tabs and status line appearence were changed to be minimal as possible. This is
-especially handy while working on laptop. Selection and comments in color scheme
-were changed to be more visible.
+Icons taken from [boXY](https://github.com/oivva/boxy).
 
-It is especially good to use this theme with menu hidden (hackers way =) if you
-are Linux user.
+Slight tweaks to DevastateMini for a more cohesive UX, colours and overall feel tweaked to be in-line with my colur scheme
 
+### DevastateMini + Mode-Z
 
-### Devastate
+Ultra-dark neutral theme, combined with Ultra-dark neutral and balanced editor colour scheme with minimal-distractions in mind.
+Every colour was carefully chosen to minimize colour-clash for faster on-the-fly reading.
 
-Ultra dark theme and color scheme for Sublime Text.
-
+In addition this theme utilizes Hashed Syntax Highlighting to further aid in quickly scanning identifiers.
 
 ### Installation
 
-This plugin is part of [sublime-enhanced](http://github.com/shagabutdinov/sublime-enhanced)
-plugin set. You can install sublime-enhanced and this plugin will be installed
-automatically.
+TODO: Add installation instructions
 
-If you would like to install this package separately check "Installing packages
-separately" section of [sublime-enhanced](http://github.com/shagabutdinov/sublime-enhanced)
-package.
+After installing, you can actiavate the theme either by selecting `UI: Select Theme` and `UI: Select Color Scheme` from the command palette (`ctrl+shift+p` by default) or by adding these lines to your user settings (`Preferences: Settings` in the command palette, or `Menu->Preferences->Settings`)
 
-After installation you have to activate theme manually by adding the following
-lines to your user preferences configuration file ("Preferences: Settings -
-User" in command palette):
-
-	  "color_scheme": "Packages/DevastateMini/DevastateMini.tmTheme",
-	  "theme": "DevastateMini.sublime-theme",
+	  "color_scheme": "color_scheme": "Packages/Mode-Z/Mode-Z.sublime-color-scheme",
+	  "theme": "DevastateModeZ.sublime-theme",
 
 
 ### Screenshots
 
-![Devastate small screenshot](https://raw.github.com/shagabutdinov/sublime-devastate-mini/master/screenshot.png "DevastateMini screenshot")
-
-
-### Dependencies
-
-None
+![DevastateMini + Mode-Z screenshot (looping to a dummy 0.0.0.0 IP for now, TODO: upload screenshot(s)](https://0.0.0.0/404.png "DevastateMode-Z")
