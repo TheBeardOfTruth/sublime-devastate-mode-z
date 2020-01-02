@@ -1,0 +1,240 @@
+{
+    "name": "Mode Z",
+    "description":"A minimalist colour scheme that seeks to minimize distractions by focusing on what really matters and eliminating excessive use of colour",
+    "author": "Andreas \"Cocaine Johnsson\" Björkman",
+    "variables":
+    {
+        "True_Black"    :   "#000000",
+        "Black"         :   "#080808",
+        "Medium_Black"  :   "#161616",
+        "Dark_Grey"     :   "#3b3a32",
+        "Medium_Grey"   :   "#515151",
+        "Grey"          :   "#6d6d6d",
+        "Light_Grey"    :   "#a0a0a0",
+        "Dark_White"    :   "#e0e0e0",
+        "True_White"    :   "#f5f5f5",
+
+        "UI_Red"        :   "#ff7e7e",
+        "Alert_Red"     :   "#ff2222",
+        "Candy_red"     :   "#f92649",
+        "Dark_Red"      :   "#b90619",
+        "Moderate_Pink" :   "#d66990",
+        "Magenta"       :   "#ff00ff",
+
+        "Aqua"          :   "#3cdfb5",
+        "Blue"          :   "#66a9ec",
+        "Cyan"          :   "#30A5A3",
+        "Soft_Cyan"     :   "#66d9ef",
+        "Green"         :   "#39e600",
+        "Light_Green"   :   "#a6e22e",
+        "Dark_Green"    :   "#008540",
+
+        "Light_Beige"   :   "#fce8cb",
+        "Beige"         :   "#dcc8ab",
+        "Dark_Beige"    :   "#cdb087",
+        "Soft_Orange"   :   "#fab85a"
+    },
+
+    "globals":
+    {
+        "foreground"                :   "var(Light_Beige)",
+        "background"                :   "var(Medium_Black)",
+        "accent"                    :   "var(Aqua)",
+        "gutter_foreground"         :   "var(Dark_White)",
+        "gutter"                    :   "var(Black)",
+        "invisibles"                :   "var(UI_Red)",
+        "selection"                 :   "var(Medium_Grey)",
+        "selection_border"          :   "var(Medium_Grey)",
+        "selection_border_width"    :   "3",
+        "inactive_selection"        :   "var(Dark_Grey)",
+        "selection_corner_style"    :   "cut",
+        "selection_corner_radius"   :   "4",
+        "highlight"                 :   "color(var(True_White) alpha(0.3))",
+        "find_highlight"            :   "var(Soft_Orange)",
+
+        "caret"                     :   "var(UI_Red)",
+        "block_caret"               :   "var(UI_Red)",
+        "line_highlight"            :   "color(var(Dark_Grey) alpha(0.5))",
+        "misspelling"               :   "var(Alert_Red)",
+        "fold_marker"               :   "var(Aqua)",
+        "minimap_border"            :   "var(Aqua)",
+        "line_diff_width"           :   "5",
+        "line_diff_added"           :   "var(Soft_Orange)",
+        "line_diff_modified"        :   "var(Green)",
+        "line_diff_deleted"         :   "var(Alert_Red)",
+
+        "guide"                     :   "var(Dark_Grey)",
+        "active_guide"              :   "var(UI_Red)",
+        "stack_guide"               :   "var(Dark_Grey)",
+        "brackets_options"          :   "underline foreground bold",
+        "brackets_foreground"       :   "color(var(Blue) alpha(1))",
+        "tags_options"              :   "underline",
+        "shadow"                    :   "var(True_Black)",
+        "shadow_width"              :   "8"
+    },
+
+    "rules":
+    [
+        {
+            "name"      : "Comments",
+            "scope"     : "comment",
+            "foreground": "var(Light_Grey)",
+            "font_style": "italic"
+        },
+        {
+            "name"      : "Storage",
+            "scope"     : "storage",
+            "foreground": "var(True_White)",
+            "font_style": "italic bold"
+        },
+        {
+            "name"      : "Storage types",
+            "scope"     : "support.type, support.class",
+            "foreground": "var(Blue)",
+            "font_style": "bold"
+        },
+        {
+            "name"      : "Storage modifier",
+            "scope"     : "storage.modifier",
+            "foreground": "var(Dark_red)",
+            "font_style": "bold"
+        },
+        {
+            "name"      : "String literals",
+            "scope"     : "string",
+            "foreground": "var(Dark_Beige)"
+        },
+        {
+            "name"      : "Functions",
+            "scope"     : "variable.function",
+            "foreground": "color(var(Green) alpha(0.66))"
+        },
+        {
+            "name"      : "Variables (hashed)",
+            "scope"     : "variable.other.readwrite, variable.other.member, support.other.variable",
+            "foreground": ["color(var(Candy_red) alpha(1))", "color(var(Light_Green) alpha(1))"]
+        },
+        {
+            "name"      : "Variables (lang)",
+            "scope"     : "variable.language",
+            "foreground": "var(Magenta)"
+        },
+        {
+            "name"      : "Function Parameter",
+            "scope"     : "variable.parameter",
+            "foreground": "var(Magenta)",
+            "font_style": "italic"
+        },
+        {
+            "name"      : "Control Flow",
+            "scope"     : "keyword",
+            "foreground": "var(Soft_Orange)"
+        },
+        {
+            "name"      : "Preprocessor Directives",
+            "scope"     : "keyword.control.import",
+            "foreground": "color(var(Cyan) alpha(0.8))",
+            "font_style": "italic"
+        },
+        {
+            "name"      : "Operators",
+            "scope"     : "keyword.operator",
+            "foreground": "color(var(Cyan) alpha(1))",
+        },
+        {
+            "name"      : "Non-Local Functions",
+            "scope"     : "support.function",
+            "foreground": "var(Green)"
+        },
+        {
+            "name"      : "User-defined constants",
+            "scope"     : "constant.character, constant.other, constant.character.escape, constant.other.placeholder",
+            "foreground": "color(var(Moderate_Pink) alpha(1.0))"
+        },
+        {
+            "name"      : "Numbers",
+            "scope"     : "constant.numeric",
+            "foreground": "var(Soft_Orange)"
+        },
+        {
+            "name"      : "Built-in constants",
+            "scope"     : "constant.language",
+            "foreground": "var(Dark_Green)"
+        },
+        {
+            "name"      : "Classes, Structs",
+            "scope"     : "support.class, support.module, entity.name.class, entity.name.struct, entity.other.inherited-class, storage.type.class, keyword.declaration.class, storage.type.struct, keyword.declaration.struct",
+            "foreground": "var(Soft_Cyan)",
+            "font_style": "underline"
+        },
+        {
+            "name"      : "Function name",
+            "scope"     : "entity.name.function",
+            "foreground": "var(Blue)",
+            "font_style": "italic"
+        },
+        {
+            "name"      : "Punctuation",
+            "scope"     : "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.accessor",
+            "foreground": "var(Candy_red)"
+        },
+        {
+            "name"      : "Language Literal",
+            "scope"     : "variable.language.super, variable.language.this, variable.language.self",
+            "foreground": "var(Alert_Red)"
+        },
+        {
+            "name"      : "diff.deleted",
+            "scope"     : "markup.deleted",
+            "foreground": "var(Alert_Red)"
+        },
+        {
+            "name"      : "diff.inserted",
+            "scope"     : "markup.inserted",
+            "foreground": "var(Green)"
+        },
+        {
+            "name"      : "diff.changed",
+            "scope"     : "markup.changed",
+            "foreground": "var(Soft_Orange)"
+        },
+        {
+            "name"      : "Namespaces",
+            "scope"     : "entity.name.namespace, entity.name.interface, entity.name.impl, entity.name.class.forward-decl",
+            "foreground": "var(Blue)"
+        },
+        {
+            "name"      : "Enum, Union",
+            "scope"     : "storage.type.enum, keyword.declaration.enum, entity.name.union, entity.name.enum, storage.type.enum, keyword.declaration.enum, storage.type.union, keyword.declaration.union, storage.type.trait, keyword.declaration.trait, storage.type.interface, keyword.declaration.interface,  storage.type.impl keyword.declaration.impl, storage.type keyword.declaration.type ",
+            "foreground": "var(Soft_Cyan)"
+        },
+        {
+            "name"      : "Curly Braces",
+            "scope"     : "punctuation.section.block.begin, punctuation.section.block.end, punctuation.section.braces.begin, punctuation.section.braces.end",
+            "foreground": "var(Grey)",
+            "font_style": "bold"
+        },
+        {
+            "name"      : "Parentheses contents",
+            "scope"     : "meta.group, meta.parens",
+            "foreground": "var(Light_Beige)",
+            "font_style": "italic"
+        },
+        {
+            "name"      : "Parentheses",
+            "scope"     : "punctuation.section.group.begin, punctuation.section.group.end, punctuation.section.parens.begin, punctuation.section.parens.end",
+            "foreground": "var(Dark_Red)",
+            "font_style": "bold"
+        },
+        {
+            "name"      : "Square Brackets",
+            "scope"     : "punctuation.section.brackets.begin, punctuation.section.brackets.end, punctuation.definition.generic.begin, punctuation.definition.generic.end",
+            "foreground": "var(Dark_Red)"
+        },
+        {
+            "name"      : "Misc. Punctuation",
+            "scope"     : "punctuation.separator, punctuation.terminator, punctuation.separator.continuation",
+            "foreground": "var(Soft_Cyan)"
+        },
+    ]
+}
