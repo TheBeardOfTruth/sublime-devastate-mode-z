@@ -1,4 +1,4 @@
-# DevastateMode-Z
+# Devastate Mode-Z
 
 Forked from [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini), icons taken from [boXY](https://github.com/oivva/boxy).
 
