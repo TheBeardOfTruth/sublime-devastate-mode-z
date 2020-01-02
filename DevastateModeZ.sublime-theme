@@ -1,5 +1,5 @@
 [
-    {
+    { //TODO: document me
         "class": "icon_folder",
         "layer0.texture": "Theme - Default/icons/folder.png",
         "layer0.opacity": 1,
@@ -79,7 +79,7 @@
     },
     {
         "class"             : "fold_button_control",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-open.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-open.png",
         "layer0.opacity"    : 1,
         "layer0.inner_margin": 0,
         "content_margin"    : [8,8],
@@ -94,7 +94,7 @@
     {
         "class"             : "fold_button_control",
         "attributes"        : ["expanded"],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-closed.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-closed.png"
     },
     {
         "class"             : "fold_button_control",
@@ -338,13 +338,13 @@
         "class"             : "close_button",
         "parents"           : [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.opacity"    : 1,
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/close.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/close.png",
         "layer0.tint"       : [232,232,232]
     },
     {
         "class"             : "close_button",
         "attributes"        : ["dirty"],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/circle.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/circle.png",
         "layer0.opacity"    : 1,
         "layer0.tint"       : [252,48,12]
     },
@@ -352,32 +352,32 @@
         "class"             : "close_button",
         "attributes"        : ["dirty"],
         "parents"           : [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/close.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/close.png"
     },
     {
         "class"             : "close_button",
         "attributes"        : ["dirty"],
         "parents"           : [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/close.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/close.png",
         "layer0.opacity"    : 1,
         "layer0.tint"       : [255,200,115]
     },
     {
         "class"             : "close_button",
         "attributes"        : ["hover"],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/close.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/close.png"
     },
     {
         "class"             : "close_button",
         "parents"           : [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/close.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/close.png",
         "layer0.opacity"    : 1,
         "layer0.tint"       : [252,252,252]
     },
     {
         "class"             : "disclosure_button_control",
         "content_margin"    : [8,8],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-closed.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-closed.png",
         "layer0.tint"       : [120,120,120],
         "layer0.opacity"    : 1
     },
@@ -392,7 +392,7 @@
     },
     {
         "class"             : "disclosure_button_control",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-closed.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-closed.png"
     },
     {
         "class"             : "disclosure_button_control",
@@ -401,12 +401,12 @@
     {
         "class"             : "disclosure_button_control",
         "parents"           : [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-closed.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-closed.png"
     },
     {
         "class"             : "disclosure_button_control",
         "attributes"        : ["expanded"],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-open.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-open.png"
     },
     {
         "class"             : "disclosure_button_control",
@@ -417,24 +417,24 @@
         "class"             : "disclosure_button_control",
         "attributes"        : ["expanded"],
         "parents"           : [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-open.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-open.png"
     },
     {
         "class"             : "disclosure_button_control",
         "attributes"        : ["expanded"],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-open.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-open.png"
     },
     {
         "class"             : "disclosure_button_control",
         "attributes"        : ["expanded"],
         "parents"           : [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-open.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-open.png"
     },
     {
         "class"             : "disclosure_button_control",
         "attributes"        : ["expanded"],
         "parents"           : [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/folder-open.png"
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/folder-open.png"
     },
     {
         "class"             : "button_control",
@@ -600,7 +600,7 @@
     },
     {
         "class"             : "icon_regex",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/regex.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/regex.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -612,7 +612,7 @@
     },
     {
         "class"             : "icon_case",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/casesens.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/casesens.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -624,7 +624,7 @@
     },
     {
         "class"             : "icon_whole_word",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/wholeword.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/wholeword.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -636,7 +636,7 @@
     },
     {
         "class"             : "icon_context",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/context.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/context.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -648,7 +648,7 @@
     },
     {
         "class"             : "icon_use_buffer",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/buffer.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/buffer.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -660,7 +660,7 @@
     },
     {
         "class"             : "icon_reverse",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/reverse.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/reverse.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -672,7 +672,7 @@
     },
     {
         "class"             : "icon_wrap",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/wrap.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/wrap.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -684,7 +684,7 @@
     },
     {
         "class"             : "icon_in_selection",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/selection.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/selection.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -696,7 +696,7 @@
     },
     {
         "class"             : "icon_preserve_case",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/casesens.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/casesens.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
@@ -708,7 +708,7 @@
     },
     {
         "class"             : "icon_highlight",
-        "layer0.texture"    : "Mode-Z/DevastateMode-Z/highlight.png",
+        "layer0.texture"    : "DevasTaTeModeZ/DevastateMode-Z/highlight.png",
         "layer0.tint"       : [125,125,125],
         "layer0.opacity"    : 1,
         "content_margin"    : 8
