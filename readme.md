@@ -2,7 +2,9 @@
 
 Forked from [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini), icons taken from [boXY](https://github.com/oivva/boxy).
 
-Slight tweaks to DevastateMini for a more cohesive UX, colours and overall feel tweaked to be in-line with my colour scheme
+Slight tweaks to DevastateMini for a more cohesive UX, colours and overall feel tweaked to be in-line with my colour scheme.
+
+This theme has primarily been designed with C and C++ in mind, other languages will likely work fine but the syntax highlighting may be incomplete or not what was expected.
 
 ### DevastateMini + Mode-Z
 
