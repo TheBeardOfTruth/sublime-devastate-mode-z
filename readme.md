@@ -26,4 +26,4 @@ After installing, you can actiavate the theme either by selecting `UI: Select Th
 
 ### Screenshots
 
-![DevastateMini + Mode-Z screenshot (looping to a dummy 0.0.0.0 IP for now, TODO: upload screenshot(s)](https://0.0.0.0/404.png "DevastateMode-Z")
+![DevastateMini + Mode-Z screenshot](screenshot.png?raw=true "DevastateMode-Z")
