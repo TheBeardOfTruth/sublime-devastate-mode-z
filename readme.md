@@ -21,6 +21,6 @@ After installing, you can actiavate the theme either by selecting `UI: Select Th
 	  "theme": "DevastateModeZ.sublime-theme",
 
 
-### Screenshots
+### Screenshot
 
 ![DevastateMini + Mode-Z screenshot](screenshot.png?raw=true "DevastateMode-Z")
