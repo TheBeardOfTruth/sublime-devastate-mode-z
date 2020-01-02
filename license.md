@@ -2,7 +2,7 @@
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Leonid Shagabutdinov
+Copyright © 2020 Andreas Björkman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
