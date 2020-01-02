@@ -1,9 +1,6 @@
 # DevastateMode-Z
 
-Forked from [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini) that was based on the [Devastate](https://github.com/vlakarados/devastate) that
-was based on the [Spacefunk](https://github.com/Twiebie/ST-Spacefunk) theme. 
-
-Icons taken from [boXY](https://github.com/oivva/boxy).
+Forked from [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini), icons taken from [boXY](https://github.com/oivva/boxy).
 
 Slight tweaks to DevastateMini for a more cohesive UX, colours and overall feel tweaked to be in-line with my colur scheme
 
