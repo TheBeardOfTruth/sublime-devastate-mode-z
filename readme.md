@@ -15,7 +15,7 @@ In addition this theme utilizes Hashed Syntax Highlighting to further aid in qui
 
 ### Installation
 
-TODO: Add installation instructions
+Install with [Package Control](https://packagecontrol.io/), or install it manually if you know how.
 
 After installing, you can actiavate the theme either by selecting `UI: Select Theme` and `UI: Select Color Scheme` from the command palette (`ctrl+shift+p` by default) or by adding these lines to your user settings (`Preferences: Settings` in the command palette, or `Menu->Preferences->Settings`)
 
