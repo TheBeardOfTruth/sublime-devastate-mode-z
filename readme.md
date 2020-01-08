@@ -1,6 +1,6 @@
 # Devastate Mode-Z
 
-Forked from [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini), icons taken from [boXY](https://github.com/oivva/boxy).
+Based on [DevastateMini](https://github.com/shagabutdinov/sublime-devastate-mini).
 
 Slight tweaks to DevastateMini for a more cohesive UX, colours and overall feel tweaked to be in-line with my colour scheme.
 
