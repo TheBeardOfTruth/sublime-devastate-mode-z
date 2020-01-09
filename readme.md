@@ -19,8 +19,8 @@ Install with [Package Control](https://packagecontrol.io/), or install it manual
 
 After installing, you can actiavate the theme either by selecting `UI: Select Theme` and `UI: Select Color Scheme` from the command palette (`ctrl+shift+p` by default) or by adding these lines to your user settings (`Preferences: Settings` in the command palette, or `Menu->Preferences->Settings`)
 
-	  "color_scheme": "color_scheme": "Packages/Mode-Z/Mode-Z.sublime-color-scheme",
-	  "theme": "DevastateModeZ.sublime-theme",
+	  "color_scheme": "Mode-Z.sublime-color-scheme",
+	  "theme": "DevastateModeZ.sublime-theme"",
 
 
 ### Screenshot
