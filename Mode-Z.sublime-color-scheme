@@ -117,12 +117,12 @@
         {
             "name"      : "Variables (lang)",
             "scope"     : "variable.language",
-            "foreground": "var(Magenta)"
+            "foreground": ["color(var(Candy_red) alpha(1))", "color(var(Light_Green) alpha(1))"]
         },
         {
             "name"      : "Function Parameter",
             "scope"     : "variable.parameter",
-            "foreground": "var(Magenta)",
+            "foreground": ["color(var(Green) alpha(1))", "color(var(Moderate_Pink) alpha(1))"],
             "font_style": "italic"
         },
         {
