@@ -4,237 +4,228 @@
     "author": "Andreas \"Cocaine Johnsson\" Björkman",
     "variables":
     {
-        "True_Black"    :   "#000000",
-        "Black"         :   "#080808",
-        "Medium_Black"  :   "#161616",
-        "Dark_Grey"     :   "#3b3a32",
-        "Medium_Grey"   :   "#515151",
-        "Grey"          :   "#6d6d6d",
-        "Light_Grey"    :   "#a0a0a0",
-        "Dark_White"    :   "#e0e0e0",
-        "True_White"    :   "#f5f5f5",
+        "true_black"    :   "#000000",
+        "black"         :   "#080808",
+        "medium_black"  :   "#161616",
+        "dark_grey"     :   "#3b3a32",
+        "medium_grey"   :   "#515151",
+        "grey"          :   "#6d6d6d",
+        "light_grey"    :   "#a0a0a0",
+        "dark_white"    :   "#e0e0e0",
+        "true_white"    :   "#f5f5f5",
 
-        "UI_Red"        :   "#ff7e7e",
-        "Alert_Red"     :   "#ff2222",
-        "Candy_red"     :   "#f92649",
-        "Dark_Red"      :   "#b90619",
-        "Moderate_Pink" :   "#d66990",
-        "Magenta"       :   "#ff00ff",
+        "ui_red"        :   "#ff7e7e",
+        "alert_red"     :   "#ff2222",
+        "candy_red"     :   "#f92649",
+        "dark_red"      :   "#b90619",
+        "moderate_pink" :   "#d66990",
+        "magenta"       :   "#ff00ff",
 
-        "Aqua"          :   "#3cdfb5",
-        "Blue"          :   "#66a9ec",
-        "Cyan"          :   "#30A5A3",
-        "Soft_Cyan"     :   "#66d9ef",
-        "Green"         :   "#39e600",
-        "Light_Green"   :   "#a6e22e",
-        "Dark_Green"    :   "#008540",
+        "aqua"          :   "#3cdfb5",
+        "blue"          :   "#66a9ec",
+        "cyan"          :   "#30a5a3",
+        "soft_cyan"     :   "#66d9ef",
+        "green"         :   "#39e600",
+        "light_green"   :   "#a6e22e",
+        "dark_green"    :   "#008540",
 
-        "Light_Beige"   :   "#fce8cb",
-        "Beige"         :   "#dcc8ab",
-        "Dark_Beige"    :   "#cdb087",
-        "Soft_Orange"   :   "#fab85a"
+        "light_beige"   :   "#fce8cb",
+        "beige"         :   "#dcc8ab",
+        "dark_beige"    :   "#cdb087",
+        "soft_orange"   :   "#fab85a"
     },
 
     "globals":
     {
-        "foreground"                :   "var(Light_Beige)",
-        "background"                :   "var(Medium_Black)",
-        "accent"                    :   "var(Aqua)",
-        "gutter_foreground"         :   "var(Dark_White)",
-        "gutter"                    :   "var(Black)",
-        "invisibles"                :   "var(UI_Red)",
-        "selection"                 :   "var(Medium_Grey)",
-        "selection_border"          :   "var(Medium_Grey)",
+        "foreground"                :   "var(light_beige)",
+        "background"                :   "var(medium_black)",
+        "accent"                    :   "var(aqua)",
+        "gutter_foreground"         :   "var(dark_white)",
+        "gutter"                    :   "var(black)",
+        "invisibles"                :   "var(ui_red)",
+        "selection"                 :   "var(medium_grey)",
+        "selection_border"          :   "var(medium_grey)",
         "selection_border_width"    :   "3",
-        "inactive_selection"        :   "var(Dark_Grey)",
+        "inactive_selection"        :   "var(dark_grey)",
         "selection_corner_style"    :   "cut",
         "selection_corner_radius"   :   "4",
-        "highlight"                 :   "color(var(True_White) alpha(0.3))",
-        "find_highlight"            :   "var(Soft_Orange)",
+        "highlight"                 :   "color(var(true_white) alpha(0.3))",
+        "find_highlight"            :   "var(soft_orange)",
+        "modifier"                  :   "var(dark_white)",
 
-        "caret"                     :   "var(UI_Red)",
-        "block_caret"               :   "var(UI_Red)",
-        "line_highlight"            :   "color(var(Dark_Grey) alpha(0.5))",
-        "misspelling"               :   "var(Alert_Red)",
-        "fold_marker"               :   "var(Aqua)",
-        "minimap_border"            :   "var(Aqua)",
+        "caret"                     :   "var(ui_red)",
+        "block_caret"               :   "var(ui_red)",
+        "line_highlight"            :   "color(var(dark_grey) alpha(0.5))",
+        "misspelling"               :   "var(alert_red)",
+        "fold_marker"               :   "var(aqua)",
+        "minimap_border"            :   "var(aqua)",
         "line_diff_width"           :   "5",
-        "line_diff_added"           :   "var(Soft_Orange)",
-        "line_diff_modified"        :   "var(Green)",
-        "line_diff_deleted"         :   "var(Alert_Red)",
+        "line_diff_added"           :   "var(soft_orange)",
+        "line_diff_modified"        :   "var(green)",
+        "line_diff_deleted"         :   "var(alert_red)",
 
-        "guide"                     :   "var(Dark_Grey)",
-        "active_guide"              :   "var(UI_Red)",
-        "stack_guide"               :   "var(Dark_Grey)",
+        "guide"                     :   "var(dark_grey)",
+        "active_guide"              :   "var(ui_red)",
+        "stack_guide"               :   "var(dark_grey)",
         "brackets_options"          :   "underline foreground bold",
-        "brackets_foreground"       :   "color(var(Blue) alpha(1))",
+        "brackets_foreground"       :   "color(var(blue) alpha(1))",
         "tags_options"              :   "underline",
-        "shadow"                    :   "var(True_Black)",
+        "shadow"                    :   "var(true_black)",
         "shadow_width"              :   "8"
     },
 
     "rules":
     [
         {
-            "name"      : "Comments",
+            "name"      : "invalid",
+            "scope"     : "invalid",
+            "foreground": "var(alert_red)",
+            "background": "var(aqua)",
+            "font_style": "italic, squiggly_underline, bold, glow"
+        },
+        {
+            "name"      : "comments",
             "scope"     : "comment",
-            "foreground": "var(Light_Grey)",
+            "foreground": "var(light_grey)",
             "font_style": "italic"
         },
-        {
-            "name"      : "Storage",
-            "scope"     : "storage",
-            "foreground": "var(True_White)",
-            "font_style": "italic bold"
+        {   //works for declared namespaces but not instances of them being used, why?
+            "name"      : "namespaces",
+            "scope"     : "entity.name.namespace, entity.name.interface, entity.name.impl, entity.name.class.forward-decl",
+            "foreground": "var(blue)"
         },
         {
-            "name"      : "Storage types",
-            "scope"     : "support.type, support.class",
-            "foreground": "var(Blue)",
+            "name"      : "storage types",
+            "scope"     : "storage, support.type, support.class",
+            "foreground": "var(dark_white)",
             "font_style": "bold"
         },
         {
-            "name"      : "Storage modifier",
+            "name"      : "storage modifier",
             "scope"     : "storage.modifier",
-            "foreground": "var(Dark_red)",
+            "foreground": "var(dark_white)",
             "font_style": "bold"
         },
         {
-            "name"      : "String literals",
+            "name"      : "string literals",
             "scope"     : "string",
-            "foreground": "var(Dark_Beige)"
+            "foreground": "var(dark_beige)"
         },
         {
-            "name"      : "Functions",
-            "scope"     : "variable.function",
-            "foreground": "color(var(Green) alpha(0.66))"
+            "name"      : "variables",
+            "scope"     : "variable, punctuation.definition.variable, definition.variable",
+            "foreground": ["color(var(candy_red) alpha(.90))", "color(var(light_green) alpha(.90))"]
         },
         {
-            "name"      : "Variables (hashed)",
-            "scope"     : "variable.other.readwrite, variable.other.member, support.other.variable",
-            "foreground": ["color(var(Candy_red) alpha(1))", "color(var(Light_Green) alpha(1))"]
-        },
-        {
-            "name"      : "Variables (lang)",
-            "scope"     : "variable.language",
-            "foreground": ["color(var(Candy_red) alpha(1))", "color(var(Light_Green) alpha(1))"]
-        },
-        {
-            "name"      : "Function Parameter",
+            "name"      : "function parameter",
             "scope"     : "variable.parameter",
-            "foreground": ["color(var(Green) alpha(1))", "color(var(Moderate_Pink) alpha(1))"],
+            "foreground": ["color(var(green) alpha(1))", "color(var(moderate_pink) alpha(1))"],
             "font_style": "italic"
         },
         {
-            "name"      : "Control Flow",
-            "scope"     : "keyword",
-            "foreground": "var(Soft_Orange)"
-        },
-        {
-            "name"      : "Preprocessor Directives",
-            "scope"     : "keyword.control.import",
-            "foreground": "color(var(Cyan) alpha(0.8))",
-            "font_style": "italic"
-        },
-        {
-            "name"      : "Operators",
-            "scope"     : "keyword.operator",
-            "foreground": "color(var(Cyan) alpha(1))",
-        },
-        {
-            "name"      : "Non-Local Functions",
-            "scope"     : "support.function",
-            "foreground": "var(Green)"
-        },
-        {
-            "name"      : "User-defined constants",
+            "name"      : "user-defined constants",
             "scope"     : "constant.character, constant.other, constant.character.escape, constant.other.placeholder",
-            "foreground": "color(var(Moderate_Pink) alpha(1.0))"
+            "foreground": "color(var(moderate_pink) alpha(1.0))"
         },
         {
-            "name"      : "Numbers",
+            "name"      : "numbers",
             "scope"     : "constant.numeric",
-            "foreground": "var(Soft_Orange)"
+            "foreground": "var(soft_orange)"
         },
         {
-            "name"      : "Built-in constants",
+            "name"      : "built-in constants",
             "scope"     : "constant.language",
-            "foreground": "var(Dark_Green)"
+            "foreground": "color(var(light_grey) blend(var(dark_beige) 65%)"
         },
         {
-            "name"      : "Classes, Structs",
+            "name"      : "classes, structs",
             "scope"     : "support.class, support.module, entity.name.class, entity.name.struct, entity.other.inherited-class, storage.type.class, keyword.declaration.class, storage.type.struct, keyword.declaration.struct",
-            "foreground": "var(Soft_Cyan)",
-            "font_style": "underline"
+            "font_style": "none"
         },
         {
-            "name"      : "Function name",
+            "name"      : "enum, union",
+            "scope"     : "storage.type.enum, keyword.declaration.enum, entity.name.union, entity.name.enum, storage.type.enum, keyword.declaration.enum, storage.type.union, keyword.declaration.union, storage.type.trait, keyword.declaration.trait, storage.type.interface, keyword.declaration.interface,  storage.type.impl keyword.declaration.impl, storage.type keyword.declaration.type "
+        },
+        {
+            "name"      : "function name",
             "scope"     : "entity.name.function",
-            "foreground": "var(Blue)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
-            "name"      : "Punctuation",
-            "scope"     : "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.accessor",
-            "foreground": "var(Candy_red)"
+            "name"      : "functions",
+            "scope"     : "variable.function, support.function",
+            "foreground": "color(var(soft_cyan) alpha(1))",
+            "font_style": "italic"
         },
         {
-            "name"      : "Language Literal",
-            "scope"     : "variable.language.super, variable.language.this, variable.language.self",
-            "foreground": "var(Alert_Red)"
+            "name"      : "control flow",
+            "scope"     : "keyword",
+            "foreground": "var(blue)"
+        },
+        {
+            "name"      : "language literal",
+            "scope"     : "variable.language, variable.language.super, variable.language.this, variable.language.self",
+            "foreground": "var(green)"
+        },
+        {
+            "name"      : "curly braces",
+            "scope"     : "punctuation.section.block.begin, punctuation.section.block.end, punctuation.section.braces.begin, punctuation.section.braces.end",
+            "foreground": "var(grey)",
+            "font_style": "bold"
+        },
+        {
+            "name"      : "parentheses contents",
+            "scope"     : "meta.group, meta.parens",
+            "foreground": "var(light_beige)",
+            "font_style": "italic"
+        },
+        {
+            "name"      : "parentheses",
+            "scope"     : "punctuation.section.group.begin, punctuation.section.group.end, punctuation.section.parens.begin, punctuation.section.parens.end",
+            "foreground": "var(dark_red)",
+            "font_style": "bold"
+        },
+        {
+            "name"      : "square brackets",
+            "scope"     : "punctuation.section.brackets.begin, punctuation.section.brackets.end, punctuation.definition.generic.begin, punctuation.definition.generic.end",
+            "foreground": "var(dark_red)"
+        },
+        {
+            "name"      : "punctuation",
+            "scope"     : "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.accessor",
+            "foreground": "var(candy_red)"
+        },
+        {
+            "name"      : "misc. punctuation",
+            "scope"     : "punctuation.separator, punctuation.terminator, punctuation.separator.continuation",
+            "foreground": "var(soft_cyan)"
+        },
+        {
+            "name"      : "operators",
+            "scope"     : "keyword.operator",
+            "foreground": "color(var(cyan) alpha(1))",
+        },
+        {
+            "name"      : "preprocessor directives",
+            "scope"     : "keyword.control.import, preprocessor.other, meta.assumed-macro",
+            "foreground": "color(var(dark_white) alpha(0.8))",
+            "font_style": "italic"
         },
         {
             "name"      : "diff.deleted",
             "scope"     : "markup.deleted",
-            "foreground": "var(Alert_Red)"
+            "foreground": "var(alert_red)"
         },
         {
             "name"      : "diff.inserted",
             "scope"     : "markup.inserted",
-            "foreground": "var(Green)"
+            "foreground": "var(green)"
         },
         {
             "name"      : "diff.changed",
             "scope"     : "markup.changed",
-            "foreground": "var(Soft_Orange)"
-        },
-        {
-            "name"      : "Namespaces",
-            "scope"     : "entity.name.namespace, entity.name.interface, entity.name.impl, entity.name.class.forward-decl",
-            "foreground": "var(Blue)"
-        },
-        {
-            "name"      : "Enum, Union",
-            "scope"     : "storage.type.enum, keyword.declaration.enum, entity.name.union, entity.name.enum, storage.type.enum, keyword.declaration.enum, storage.type.union, keyword.declaration.union, storage.type.trait, keyword.declaration.trait, storage.type.interface, keyword.declaration.interface,  storage.type.impl keyword.declaration.impl, storage.type keyword.declaration.type ",
-            "foreground": "var(Soft_Cyan)"
-        },
-        {
-            "name"      : "Curly Braces",
-            "scope"     : "punctuation.section.block.begin, punctuation.section.block.end, punctuation.section.braces.begin, punctuation.section.braces.end",
-            "foreground": "var(Grey)",
-            "font_style": "bold"
-        },
-        {
-            "name"      : "Parentheses contents",
-            "scope"     : "meta.group, meta.parens",
-            "foreground": "var(Light_Beige)",
-            "font_style": "italic"
-        },
-        {
-            "name"      : "Parentheses",
-            "scope"     : "punctuation.section.group.begin, punctuation.section.group.end, punctuation.section.parens.begin, punctuation.section.parens.end",
-            "foreground": "var(Dark_Red)",
-            "font_style": "bold"
-        },
-        {
-            "name"      : "Square Brackets",
-            "scope"     : "punctuation.section.brackets.begin, punctuation.section.brackets.end, punctuation.definition.generic.begin, punctuation.definition.generic.end",
-            "foreground": "var(Dark_Red)"
-        },
-        {
-            "name"      : "Misc. Punctuation",
-            "scope"     : "punctuation.separator, punctuation.terminator, punctuation.separator.continuation",
-            "foreground": "var(Soft_Cyan)"
+            "foreground": "var(soft_orange)"
         },
     ]
 }
